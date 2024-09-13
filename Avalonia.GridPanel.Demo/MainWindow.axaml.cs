@@ -12,6 +12,6 @@ public partial class MainWindow : Window
         {
             LaunchView = DevToolsViewKind.VisualTree
         });
-        ListBox.ItemsSource = Enumerable.Range(0, 1000).ToList();
+        ListBox.ItemsSource = Enumerable.Range(0, 1000000).ToList();
     }
 }

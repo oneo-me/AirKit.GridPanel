@@ -1,9 +1,17 @@
 # Avalonia.GridPanel
 
+[Nuget](https://www.nuget.org/packages/ONEO.Avalonia.GridPanel)
+
 > 一个支持网格虚拟化布局的控件
 
 **注意：目前仅仅达到凑合能用的地步，不建议用于正式项目**，如果不需要支持 ListBox.SelectedItem 之类的功能，可以使用
 Avalonia.Controls.ItemsRepeater 实现。
+
+## 使用方法
+
+```
+dotnet add package ONEO.Avalonia.GridPanel
+```
 
 ## 核心需求
 

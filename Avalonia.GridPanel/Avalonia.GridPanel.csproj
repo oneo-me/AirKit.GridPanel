@@ -1,4 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <Authors>ONEO</Authors>
+        <Description>一个支持网格虚拟化布局的控件</Description>
+        <PackageProjectUrl>https://github.com/oneo-me/Avalonia.GridPanel</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/oneo-me/Avalonia.GridPanel/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/oneo-me/Avalonia.GridPanel</RepositoryUrl>
+        <RepositoryType>Github</RepositoryType>
+        <PackageTags>Avalonia</PackageTags>
+        <PackageId>ONEO.Avalonia.GridPanel</PackageId>
+        <Title>Avalonia.GridPanel</Title>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Avalonia.Desktop" Version="11.1.3" />
     </ItemGroup>
