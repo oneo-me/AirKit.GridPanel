@@ -21,6 +21,10 @@ Avalonia.Controls.ItemsRepeater 实现。
 - [ ] 目前实例化控件数量存在问题，导致键盘导航时可能无发执行
 - [ ] **VirtualizingPanel 开发几乎没有文档**
 
+## 截图
+
+![截图](Screenshot.jpg)
+
 ## LICENSE
 
 [MIT](LICENSE)
