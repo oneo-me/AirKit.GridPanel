@@ -1,0 +1,6 @@
+dotnet_diagnostic.CA1062.severity = none // 验证公共方法的参数
+dotnet_diagnostic.CA1707.severity = none // 标识符不应包含下划线
+dotnet_diagnostic.CA1044.severity = none // 属性不应是只写的
+dotnet_diagnostic.CA1031.severity = none // 不捕获常规异常类型
+dotnet_diagnostic.CA2201.severity = none // 不要引发保留的异常类型
+dotnet_diagnostic.CA1065.severity = none // 不要在意外的位置引发异常
