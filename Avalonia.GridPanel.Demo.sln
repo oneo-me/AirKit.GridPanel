@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{5EDA824C-D51D-4B
 		.gitattributes = .gitattributes
 		LICENSE = LICENSE
 		.globalconfig = .globalconfig
+		README.zh_CN.md = README.zh_CN.md
 	EndProjectSection
 EndProject
 Global

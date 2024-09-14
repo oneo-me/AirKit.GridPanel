@@ -1,37 +1,41 @@
 # Avalonia.GridPanel
 
+Switch language：[中文版](README.zh_CN.md) [English](README.md)
+
 [Nuget](https://www.nuget.org/packages/ONEO.Avalonia.GridPanel)
 
-> 一个支持网格虚拟化布局的控件
+> A control that supports grid virtualization layout.
 
-**注意：目前仅仅达到凑合能用的地步，不建议用于正式项目**，如果不需要支持 ListBox.SelectedItem 之类的功能，可以使用
-Avalonia.Controls.ItemsRepeater 实现。
+**Note: Currently, it only reaches a barely usable level and is not recommended for formal projects.** If you do not
+need to support features like ListBox.SelectedItem, you can use Avalonia.Controls.ItemsRepeater for implementation.
 
-## 使用方法
+## Usage
 
 ```
 dotnet add package ONEO.Avalonia.GridPanel
 ```
 
-## 核心需求
+## Core requirements
 
-- [x] 支持在 ListBox 等具有选择项的控件中使用
-- [x] 支持网格布局
-- [x] 支持虚拟化布局
-- [x] 支持自定义大小
-- [x] 支持自定义间距
-- [x] 支持键盘导航
+- [x] Supports use in controls with selectable items such as ListBox
+- [x] Supports grid layout
+- [x] Supports virtualization layout
+- [x] Supports custom size
+- [x] Supports custom spacing
+- [x] Supports keyboard navigation
 
-## 一些问题
+## Some questions
 
-- [ ] 与 Avalonia 标准的实现方式有区别：不会缓存控件
-- [ ] 无发支持动态高度的布局：应该需要 IScrollSnapPointsInfo 相关代码，没有集体研究
-- [ ] 目前实例化控件数量存在问题，导致键盘导航时可能无发执行
-- [ ] **VirtualizingPanel 开发几乎没有文档**
+- [ ] Different from the standard implementation of Avalonia: does not cache controls
+- [ ] Cannot support dynamic height layouts: should require IScrollSnapPointsInfo related code, not specifically
+  researched
+- [ ] Currently, there is an issue with the number of instantiated controls, which may prevent execution during keyboard
+  navigation
+- [ ] **There is almost no documentation for VirtualizingPanel**
 
-## 截图
+## Screenshot
 
-![截图](Screenshot.jpg)
+![Screenshot](Screenshot.jpg)
 
 ## LICENSE
 
